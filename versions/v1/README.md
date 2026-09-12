@@ -1,16 +1,5 @@
 # Body Factor Foz
 
-Este repositório reúne duas versões independentes do projeto:
-
-| Versão | Código | Executar |
-| --- | --- | --- |
-| V1 — Landing page e catálogo | [`versions/v1/`](versions/v1/) (também disponível em `dist/`) | `node server.cjs` — porta 4173 |
-| V2 — E-commerce com conta local | [`v2/`](v2/) | `cd v2` e `node server.cjs` — porta 4174 |
-
-Consulte a [documentação completa da V2](v2/README.md) para cadastro, favoritos, carrinho, frete, pedidos e pontos. A V2 usa dados locais de demonstração; não possui autenticação ou pagamentos em produção. A [V1 preservada](versions/v1/README.md) mantém a documentação original.
-
-As instruções a seguir descrevem a V1.
-
 Landing page e catálogo institucional em HTML5, CSS puro com classes organizadas e JavaScript ES6+. Sem frameworks, CDN, instalação de pacotes ou build obrigatório.
 
 ## Executar
